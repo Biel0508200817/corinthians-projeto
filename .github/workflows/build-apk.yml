@@ -44,5 +44,5 @@ jobs:
       - name: 📤 Publicar APK para Download
         uses: actions/upload-artifact@v4
         with:
-          name: Corinthians
-          path: android/app/build/outputs/apk/debug/Corinthians.apk
+          name: meu-aplicativo-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
